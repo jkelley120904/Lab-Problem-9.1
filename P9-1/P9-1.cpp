@@ -32,7 +32,7 @@ int main(void)
 	}
 	cout << endl;
 
-	cout << "Reversed Order; ";
+	cout << "Reversed order; ";
 	for (int i = 9; i >= 0; i--)
 	{
 		cout << numbers[i] << " ";
