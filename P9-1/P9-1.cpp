@@ -10,7 +10,6 @@ int main(void)
 	int numbers[10];
 
 	cout << "The random integers: ";
-
 	for (int i = 0; i < 10; i++)
 	{
 		numbers[i] = 1000 + rand() % (10000 - 1000) + 1;
@@ -18,4 +17,21 @@ int main(void)
 		cout << numbers[i] << " ";
 	}
 	cout << endl;
+
+	cout << "Even indices: ";
+	cout << numbers[0] << " " << numbers[2] << " " << numbers[4] << " " << numbers[6] << " " << numbers[8] << " ";
+	cout << endl;
+
+	/*cout << "Even Values: ";
+	for (int i = 0; i < 10; i++)
+	{
+		if (numbers[i] % 2 == 0)
+		{
+			cout << numbers[i] << " ";
+		}
+	}
+
+	cout << "Reversed Order; ";*/
+	
+	
 }
