@@ -22,7 +22,7 @@ int main(void)
 	cout << numbers[0] << " " << numbers[2] << " " << numbers[4] << " " << numbers[6] << " " << numbers[8] << " ";
 	cout << endl;
 
-	cout << "Even Values: ";
+	cout << "Even values: ";
 	for (int i = 0; i < 10; i++)
 	{
 		if (numbers[i] % 2 == 0)
@@ -37,6 +37,10 @@ int main(void)
 	{
 		cout << numbers[i] << " ";
 	}
-	
+	cout << endl;
+
+	cout << "First and last: ";
+	cout << numbers[0] << " " << numbers[9];
+	cout << endl;
 	
 }
