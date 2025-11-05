@@ -30,8 +30,13 @@ int main(void)
 			cout << numbers[i] << " ";
 		}
 	}
+	cout << endl;
 
-	//cout << "Reversed Order; ";*/
+	cout << "Reversed Order; ";
+	for (int i = 9; i >= 0; i--)
+	{
+		cout << numbers[i] << " ";
+	}
 	
 	
 }
