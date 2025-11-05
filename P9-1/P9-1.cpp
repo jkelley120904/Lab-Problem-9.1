@@ -22,7 +22,7 @@ int main(void)
 	cout << numbers[0] << " " << numbers[2] << " " << numbers[4] << " " << numbers[6] << " " << numbers[8] << " ";
 	cout << endl;
 
-	/*cout << "Even Values: ";
+	cout << "Even Values: ";
 	for (int i = 0; i < 10; i++)
 	{
 		if (numbers[i] % 2 == 0)
@@ -31,7 +31,7 @@ int main(void)
 		}
 	}
 
-	cout << "Reversed Order; ";*/
+	//cout << "Reversed Order; ";*/
 	
 	
 }
